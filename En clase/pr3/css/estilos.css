@@ -1,0 +1,52 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+.container { background-color: white;
+              border-style: solid;
+              border-color: black;
+              margin-top: 10px;
+              margin: 0 auto;
+              padding: 0;
+              width: 80%; 
+             }
+.banner ,.nav, .section, .aside, .footer { background-color: pink;
+margin-top: 10px ;
+border-color: green;}
+
+header{ 
+width: 100%;
+height: 300px; }
+
+.banner        { width: 100%;
+              height:10em ;
+              }
+
+  .logo{ float: left ;
+    width: 258px}
+
+.nav { width: 100%;
+              height:5em ;
+              float: right;
+             
+              /*padding: 1em*/  }
+
+.section /*section*/ {width: 70%;
+              height:3em ;
+              }
+
+.aside /*aside*/ {width: 30%;
+              height:7em ;
+              }
+
+.footer/*footer*/ {width: 100%;
+              height:7em ;
+           }
+          
+              
+/*.banner { background-color: lightgrey;
+              border-style: solid;
+              border-color: lightgrey
+              width: 60%;
+              height:5em ;
+              margin: auto; }*/ 

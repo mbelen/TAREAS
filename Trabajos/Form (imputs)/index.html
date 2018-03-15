@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+	<!-- QUIERO PONER LA IMAGEN DE FONDO-->
+	
+	<div><h1> Formulario </h1></div>
+	<img class="img"  src="imagenes/flores.jpg" alt="Margaritas">
+	<img class="img2" src="imagenes/florbr.jpg" alt="flor brasileña">
+	<div class="container">
+		<form action="/action_page.php"><!-- PAGINA FORM-HANDLER QUE PROCESA LA INFO-->
+			<!--<div class="maincontainer"> -->
+				<!--<img  class="wink"  src="imagenes/wink.png" alt="wink">-->
+			<br>
+			Nombre:<br>
+			<input type="text" name="nombre"><br>
+			Apellido: <br>
+			<input type="text" name="apellido"><br>
+			Email<br>
+			<input type="text" name="email"><br>
+			<br>
+			Género <br>
+			<!--preguntar por la alineacion-->
+			<input type="radio" name="gender" value="hombre"> Hombre <br>
+			<input type="radio" name="gender" value="mujer" > Mujer <br>
+			<input type="radio" name="gender" value="pony" checked > Pony <br>
+			<br>
+			<select name="nacionalidad">
+				<option value="Argentina">Argentina</option>
+				<option value="Chile">Chile</option>
+				<option value="Uruguay">Uruguay</option>
+				<option value="Paraguay">Paraguay</option>
+				<option value="Bolivia">Bolivia</option>
+				<option value="America del sur"> América del Sur</option>
+				<option value="America Central">América Central</option>
+				<option value="America del Norte">América del Norte</option>
+				<option value="Europa">Países Europeos</option>
+				<option value="Africa">África</option>
+				<option value="Asia">Asia</option>
+				<option value="Oceanía">Oceanía</option> <br>
+				<option value="Antartida">Antártida</option> <br>
+			</select>
+			<br>
+			<br>
+			Cumpleaños<br>
+			<input type="date" name="bday"> <br>
+			<br>
+			<br>
+			Temas que le interesan: <br>
+			<!-- PREG POR LA ALINEACION-->
+			<input type="checkbox" name="option1" value="Frontend"> Frontend<br>
+			<input type="checkbox" name="option2" value="Backend">Backend<br>
+			<input type="checkbox" name="option3" value="Programacionmobile">Programación Mobile <br>
+			<br>
+			<input type="checkbox" name="option4" value="TyC"> Términos y condiciones <br>
+			<!--PREGUTAR POR TERMINOS Y CONDICIONES, EL CHECKED EN EL CUADRADITO (uno en vez de otro) y EL "LINK" DE LOS TYC-->
+			<input class="bot1" type="button" value="Aceptar"> <!-- PREGUNTAR por los dos botones-->
+			<input class="bot2" type="button" value="Cancelar">
+			<!--</div> -->
+			<br>
+		</form>
+
+	</div>
+</body>
+</html>

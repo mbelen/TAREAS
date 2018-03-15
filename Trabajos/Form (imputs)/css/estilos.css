@@ -1,0 +1,52 @@
+body { background-color: aquamarine;
+	/*background-image: url(imafenes/flores.jpg); PREGUNTAR POR LA IMAGEN DE FONDO*/
+background-repeat: repeat-x;
+background-attachment: fixed; }
+
+h1
+{ /* PREGUNTAR POR LA ALINEACIÓN DEL ENCABEZADO CON RESPECTO A LA IMAGEN*/
+ text-align: center ;
+font-family: chiller;
+ clear:left; 
+ font-size: 2.5em;
+ text-transform: uppercase;
+ color: purple;
+
+ }
+
+.container {
+	 border-style: dashed;
+	 border-width: 5px;
+	 text-align: center;
+	 background-color: lightblue;
+	 border-radius: 8px;
+	 width: 60%;
+	 margin: auto;
+
+}
+.img {
+	float: left ;
+	width: 200px;
+	height: 140px;
+	
+
+}
+.img2 {
+	float: right;
+	width: 200px;
+	height: 140px;
+}
+/* quiero hacer un container dentro de otro
+.maincontainer {
+	border-style: dotted;
+	background-color: lightpink;
+	width: 100px
+	margin:auto;
+}
+*/
+.wink {
+	width: 100px;
+	height: 100px;
+	float: bottom
+
+}
